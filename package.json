@@ -1,0 +1,22 @@
+{
+  "name": "css-adapt-ai-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "e2e:electron": "cypress open --e2e --browser electron",
+    "e2e:electron:run": "cypress run --e2e --browser electron",
+    "e2e:chrome": "cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1"
+  },
+  "dependencies": {
+    "csstree-validator": "^3.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
